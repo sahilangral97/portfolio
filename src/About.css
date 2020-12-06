@@ -1,0 +1,118 @@
+.card_cover{
+    background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);
+    }
+  .card_header {
+    position: relative;
+    display: flex;
+    height: 180px;
+    flex-shrink: 0;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .card_cover{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    filter: blur(60px);
+    background-position: center;
+    background-size: cover;
+    top: -20;
+    left: -20;
+  }
+  
+  .card_avatar {
+    height: 100px;
+    left: 37%;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 70px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+  }
+  
+  .card_fullname {
+    position: absolute;
+    font-size: 22px;
+    left: 30%;
+    bottom: 9%;
+  }
+  
+  .card_jobtitle{
+    position: absolute;
+    font-size: 14px;
+    left: 30%;
+    bottom: 1%;
+    font-weight: 500;
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+  
+  .aboutsection > .card_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: 316px;
+  }
+  .aboutsection > .card_main > .skills_section{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px 5px 25px;
+  }
+  .aboutsection > .card_main > .skills_section > .skills{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .aboutsection > .card_main > .skills_section > .skills > div {
+    padding: 5px;
+    color: #636b6f;
+font-size: 13px;
+font-weight: 400;
+font-family: "DM Sans", sans-serif;
+    transition: transform 300ms;
+  }
+
+  .aboutsection > .card_main > .skills_section > .skills > div:hover {
+    transform: scale(1.2);
+  }
+
+  .aboutsection > .card_main > .skills_section > h1{
+    font-size: 15px;
+  }
+  .about{
+    padding: 5px 25px 5px 25px;
+    color: #2b2c48;
+    font-family: 'jost', sans-serif;
+    
+  }
+  .aboutt{
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .about > p{
+    color:#636b6f;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .social_media{
+    margin-left: 30px;
+    padding: 6px 20px 6px 20px;
+  }
+  .social_media > .MuiSvgIcon-root{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #8797a1;
+    transition: color 300ms;
+  }
+  
+  .social_media > .MuiSvgIcon-root:hover{
+    color:#2b2c48;
+  }
+  
+
+  

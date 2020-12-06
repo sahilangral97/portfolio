@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import About from './About';
+import Experience from './Experience';
+import Contact from './Contact'
+import Project from './Project'
 import './App.css';
 
 function App() {
+  
+  const[page,setPage] = useState("about");
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="body">
+        <div className="card">
+          { page==='about' ? <About />
+            : page==='experience' ? <Experience />
+              : page==='project' ? <Project /> 
+                : <Contact />}
+
+          <div className="footer">
+              <button onClick={() => setPage('about')}>About</button>
+              <button onClick={() => setPage('experience')}>Experience</button>
+              <button onClick={() => setPage('project')}>Project</button>
+              <button onClick={() => setPage('contact')}>Contact</button>
+            </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.card_main{
+    display: flex;
+    flex-direction: row;
+    height: 99px;
+    border-bottom: 1px solid rgb(43,44,72,0.2);   
+}
+.project_info{
+    padding-right: 3px;
+    margin-top: 8px;
+}
+.project_info > h1{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+.project_info > p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+.card_main > .project_preview >  .MuiSvgIcon-root{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    transition: transform 300ms;
+}
+
+.card_main > .project_preview >  .MuiSvgIcon-root:hover{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    transform: scale(1.3);
+}
+
