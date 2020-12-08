@@ -53,23 +53,24 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 345px;
+    height: 343px;
     padding-left: 20px;
     padding-right: 20px;
 }
 .contact_main > div{
     display: flex;
+    height: 40px;
 }
 
 .contact_main >  div > p{
     padding-left: 15px;
     font-size: 10px;
-    padding-top: 10px;
+   
 }
 
 .contact_main > div > .MuiSvgIcon-root{
-   padding-top: 15px;
-   padding-bottom: 15px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    border-right: 1px solid rgb(43,44,72,0.2);
    font-size: 1.2rem;
    padding-right: 10px;

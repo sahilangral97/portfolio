@@ -45,6 +45,12 @@ function About() {
                 <div>LINUX</div>
               </div>
             </div>
+            <a style={ {textDecoration:'none'}} href='https://drive.google.com/uc?export=download&id=1L4phnA8N0lOQW_HvOuaYN46ly2iZv9nG' target='_blank'>
+                <p style={{marginTop:'0px', marginBottom:'0px', marginLeft:'28px', fontSize:'13px',fontWeight: '700',
+                            color:'#2b2c48', fontFamily: 'jost sans-serif'}}>
+                  Get Resume
+                </p>
+           </a>
           </div>
         </div>
     )
